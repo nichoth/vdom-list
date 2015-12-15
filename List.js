@@ -27,5 +27,5 @@ List.render = function(h, state) {
     ]);
   });
 
-  return h('ul.vdom-list.vdom-list-top', items);
+  return h('ul.vdom-list.vdom-list-root', items);
 };

@@ -2,3 +2,7 @@
   padding-left: 0;
   list-style: none;
 }
+
+.vdom-list-child {
+  list-style: initial;
+}

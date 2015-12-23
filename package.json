@@ -2,7 +2,7 @@
   "name": "vdom-list",
   "description": "Show lists of things with a virtual dom",
   "main": "List.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
     "virtual-dom",
     "mercury",

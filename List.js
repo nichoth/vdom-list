@@ -21,9 +21,9 @@ List.render = function(h, state) {
   var items = state.items.map(function(it) {
     return h('li.vdom-list-parent', [
       h('span.vdom-list-parent-label', it.name),
-      h('ul.vdom-list-nested', it.children.map(function(c) {
+      it.children ? h('ul.vdom-list-nested', it.children.map(function(c) {
         return h('li.vdom-list-child', c);
-      }))
+      })) : ''
     ]);
   });
 
